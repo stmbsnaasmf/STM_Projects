@@ -1,0 +1,1 @@
+Generates permutations in lexicographical order recursively. Personal project for brute forcing Travelling Salesman Problem.
