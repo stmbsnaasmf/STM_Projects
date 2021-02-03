@@ -1,0 +1,14 @@
+RESET ALL		//Resets all channels to auto mode. Will send acknowledgement after resetting.
+RESET i		//Where i = 0 to 7, resets the specified channel. Will send ack after resetting.
+
+SET ALL x		//Where x = 0 (OFF) or x = 1(ON). Will send acknowledgement after setting.
+SET i s		//Where i = 0 to 7. Will send acknowledgement after setting.
+SET 8 x0x1x2x3x4x5x6x7	//xi = 0(Off) or 1(On). Ex: SET 8 00101000. Will send acknowledgement after setting.
+
+INFO		//Will send time(in Ten minutes), temp, channels' states, schedule, temperature settings.
+
+TEMP		//Will send current temperature
+
+TIME		//Will send current time in Ten minutes
+
+SET TIME	x	//Sets time offset in ten minutes, x must be at most 3 digits. Should be the current real world time.

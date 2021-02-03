@@ -1,0 +1,1 @@
+That this sketch was the one used to calibrate MPU6050 used for seesaw is not confirmed.
