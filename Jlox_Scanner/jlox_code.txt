@@ -1,0 +1,33 @@
+int someVariable = 2;
+
+var someVariable = 2;
+
+if (2 == someVariable)
+{
+	print("Some string");
+}
+else
+{
+	print("Another string");
+}
+
+123.123.123 + 321.321==  
+
+2345 + 3 * 5 / 6 = 
+-6 + 3 = !	!=	<	<=	==	>=	>
+//What you gonna do about it?
+== ><
+"This is a string."==
++
+
+"This \"string\" contains qoutation marks."
++
+"This string
+has a new line."	+==
+
+"This string has a //comment in it."
+
++
+
+"This string is not terminated
+and has a new line as well.
